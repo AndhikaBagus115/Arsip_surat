@@ -15,6 +15,12 @@
     <form action="{{ route('kategori.surat.store') }}" method="POST">
         @csrf
         <div class="row mb-3">
+            <label for="id" class="col-sm-2 col-form-label fw-bold">ID Kategori</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nama" style="width: 22%;" disabled value="ID akan dibuat otomatis oleh sistem">
+            </div>
+        </div>
+        <div class="row mb-3">
             <label for="id" class="col-sm-2 col-form-label fw-bold">Nama Kategori</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" name="nama" id="nama" style="width: 50%;" required>

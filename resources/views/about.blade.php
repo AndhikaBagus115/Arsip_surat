@@ -18,7 +18,7 @@
                 </tr>
                 <tr>
                     <td>Prodi</td>
-                    <td>: D3-MI PSDKU KOTA KEDIRI</td>
+                    <td>: D3-MAMANAJEMEN INFORMATIKA PSDKU KOTA KEDIRI</td>
                 </tr>
                 <tr>
                     <td>NIM</td>
@@ -26,7 +26,7 @@
                 </tr>
                 <tr>
                     <td>Tanggal</td>
-                    <td>: 25 September 2025</td>
+                    <td>: 27 September 2025</td>
                 </tr>
             </table>
         </div>

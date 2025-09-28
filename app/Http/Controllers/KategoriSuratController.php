@@ -33,7 +33,7 @@ class KategoriSuratController extends Controller
             'keterangan' => $request->keterangan
         ]);
 
-        return redirect()->route('kategori.surat.index')->with('success', 'Data Berhasil Ditambah');
+        return redirect()->route('kategori.surat.index')->with('success', 'Data Berhasil Disimpan');
     }
 
     public function destroy($id)
