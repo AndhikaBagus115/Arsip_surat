@@ -12,7 +12,7 @@ Aplikasi berbasis web untuk mengarsipkan surat resmi dalam format PDF secara ter
 ##  Cara Menjalankan
 1. Clone repo:
    ```bash
-   git clone [https://github.com/AndhikaBagus115/Arsip_surat.git]
+   git clone (https://github.com/AndhikaBagus115/Arsip_surat.git)
    cd arsip_surat
 
 2. Install dependency:
