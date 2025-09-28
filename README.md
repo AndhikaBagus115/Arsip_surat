@@ -18,17 +18,18 @@ Aplikasi berbasis web untuk mengarsipkan surat resmi dalam format PDF secara ter
 2. Install dependency:
    ```bash
    composer install
-   npm install && npm run build
    
 3. Copy file .env.example menjadi .env, lalu atur konfigurasi database:
    ```makefile
+   DB_CONNECTION=mysql
    DB_DATABASE=aplikasi_arsip
    DB_USERNAME=root
    DB_PASSWORD=
    
 4. Import database:
    ```bash
-   mysql -u root -p aplikasi_arsip < database/aplikasi_arsip.sql
+   Download file arsip_surat.sql dari repository ini
+   Import ke database Anda melalui phpMyAdmin atau terminal
    
 5. Generate key Laravel:
    ```bash
