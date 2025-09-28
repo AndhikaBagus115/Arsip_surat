@@ -27,14 +27,14 @@ Aplikasi berbasis web untuk mengarsipkan surat resmi dalam format PDF secara ter
    DB_PASSWORD=
    
 4. Import database:
-   `Download file arsip_surat.sql dari repository ini
-   Import ke database Anda melalui phpMyAdmin atau terminal`
+   `Download file arsip_surat.sql dari repository ini`
+   Lalu import ke database Anda melalui phpMyAdmin atau terminal
    
-5. Generate key Laravel:
+6. Generate key Laravel:
    ```bash
    php artisan key:generate
    
-6. Jalankan server:
+7. Jalankan server:
    ```bash
    php artisan serve
 Akses di browser: http://localhost:8000
