@@ -1,7 +1,7 @@
 # Aplikasi Web Arsip Surat PDF
 
-## Tujuan
-Membantu dalam menyimpan, mengelola, dan mencari surat resmi dalam format PDF, sehingga lebih efisien dan mudah diakses.
+## Aplikasi Web Arsip Surat
+Aplikasi berbasis web untuk mengarsipkan surat resmi dalam format PDF secara terstruktur. Proyek ini bertujuan untuk mempermudah proses penyimpanan, pencarian, dan pengelolaan surat secara digital, sehingga lebih efisien, cepat, dan mudah diakses.
 
 ## Fitur
 - Upload surat resmi dalam format PDF.
@@ -10,10 +10,15 @@ Membantu dalam menyimpan, mengelola, dan mencari surat resmi dalam format PDF, s
 - Manajemen kategori surat.
 
 ## Cara Menjalankan
-- lakukan `php artisan migrate` untuk membuat tabel bawaan laravel
+- Clone repository `git clone https://github.com/username/arsip-surat.git
+cd arsip-surat`
+- Install Dependensi `composer install`
+- Konfigurasi file .env `Duplikat file .env.example menjadi .env
+Sesuaikan konfigurasi database`
+- Lakukan import database `Download file arsip_surat.sql dari repository ini`, `Import ke database melalui phpMyAdmin atau terminal`
 - lakukan `php artisan storage:link` untuk membuat link dari folder public dan storage
-- download dan pasang `arsip_surat.sql` dari repo GitHub
 - lakukan `php artisan serve` untuk menjalankan laravel
+- Akses aplikasi dengan browser dan kunjungi `http://localhost:8000`
 
 ## Screenshot
 ### Arsip
