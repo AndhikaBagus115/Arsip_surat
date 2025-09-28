@@ -9,24 +9,36 @@ Aplikasi berbasis web untuk mengarsipkan surat resmi dalam format PDF secara ter
 - Unduh surat yang telah diarsipkan.
 - Manajemen kategori surat.
 
-## Cara Menjalankan
-Clone repo:
-[Git clone : https://github.com/AndhikaBagus115/Arsip_surat.git]
-cd arsip_surat
-Install dependency:
-composer install
-npm install && npm run build
-Copy file .env.example menjadi .env, lalu atur konfigurasi database:
-DB_DATABASE=aplikasi_arsip
-DB_USERNAME=root
-DB_PASSWORD=
-Import database:
-mysql -u root -p aplikasi_arsip < database/aplikasi_arsip.sql
-Generate key Laravel:
-php artisan key:generate
-Jalankan server:
-php artisan serve
+##  Cara Menjalankan
+1. Clone repo:
+   ```bash
+   git clone [https://github.com/AndhikaBagus115/Arsip_surat.git]
+   cd arsip_surat
+
+2. Install dependency:
+   ```bash
+   composer install
+   npm install && npm run build
+   
+3. Copy file .env.example menjadi .env, lalu atur konfigurasi database:
+   ```makefile
+   DB_DATABASE=aplikasi_arsip
+   DB_USERNAME=root
+   DB_PASSWORD=
+   
+4. Import database:
+   ```bash
+   mysql -u root -p aplikasi_arsip < database/aplikasi_arsip.sql
+   
+5. Generate key Laravel:
+   ```bash
+   php artisan key:generate
+   
+6. Jalankan server:
+   ```bash
+   php artisan serve
 Akses di browser: http://localhost:8000
+
 ## Screenshot
 ### Arsip
 ![Arsip](screenshot/arsip-index.png)
